@@ -2,7 +2,7 @@
 // const live2d_path =
 //   "https://fastly.jsdelivr.net/gh/nova1751/live2d-widget@latest/";
 
-const live2d_path = 'https://live2d.kafuchino.top/';
+const live2d_path = './live2d/';
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
