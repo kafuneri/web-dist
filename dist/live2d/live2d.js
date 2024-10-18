@@ -29,7 +29,7 @@ if (window.innerWidth >= 666) {
   Promise.all([
     loadExternalResource(live2d_path + 'live2d.min.js', 'js'),
     loadExternalResource(
-      live2d_path + 'jsdelivr/sequential/waifu-tips.js',
+      live2d_path + 'waifu-tips.js',
       'js'
     ),
   ]).then(() => {
